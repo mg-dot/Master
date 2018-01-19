@@ -8,13 +8,12 @@
 \contentsline {section}{\numberline {2.1}Indeksacja}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Stopa nominalna, rzeczywista i inflacja}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}Wska\IeC {\'z}nik cen konsumpcyjnych}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Indeks referencyjny}{13}{section.2.4}
+\contentsline {section}{\numberline {2.4}Konwencja indeksowania}{13}{section.2.4}
 \contentsline {section}{\numberline {2.5}Interpolacja indeksu}{13}{section.2.5}
 \contentsline {section}{\numberline {2.6}Notacja indeksu}{13}{section.2.6}
 \contentsline {section}{\numberline {2.7}Detale techniczne}{14}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}Interpolacja}{15}{subsection.2.7.1}
 \contentsline {subsection}{\numberline {2.7.2}Sezonowo\IeC {\'s}\IeC {\'c}}{16}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Konstrukcja krzywej forward}{17}{subsection.2.7.3}
 \contentsline {chapter}{\numberline {3}Podstawy matematyki finansowej}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Rachunek bankowy, obligacja zerokuponowa, kontrakt swapowy}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Twierdzenie Girsanowa i zamiana miary}{20}{section.3.2}

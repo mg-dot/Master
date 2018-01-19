@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.30)  13 NOV 2017 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.12)  19 JAN 2018 02:41
 entering extended mode
 **./mgr_modele_rynkowe_inflacji.tex
 (mgr_modele_rynkowe_inflacji.tex
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 (mini.cls
 Document Class: mini 2011/10/15 v0.3 Praca dyplomowa (MiNI PW)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -27,54 +27,46 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count88
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count89
-\Gm@cntv=\count90
-\c@Gm@tempcnt=\count91
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
 \Gm@bindingoffset=\dimen105
 \Gm@wd@mp=\dimen106
 \Gm@odd@mp=\dimen107
@@ -85,68 +77,70 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 (C:\Users\mgolatowski\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.st
 y
-\fancy@headwidth=\skip43
-\f@ncyO@elh=\skip44
-\f@ncyO@erh=\skip45
-\f@ncyO@olh=\skip46
-\f@ncyO@orh=\skip47
-\f@ncyO@elf=\skip48
-\f@ncyO@erf=\skip49
-\f@ncyO@olf=\skip50
-\f@ncyO@orf=\skip51
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (C:\Users\mgolatowski\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.st
 y
 Package: setspace 2011/12/19 v6.7a set line spacing
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen113
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen115
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks18
 \eqnshift@=\dimen116
 \alignsep@=\dimen117
@@ -158,10 +152,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip53
 \multlinetaggap=\skip54
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -173,36 +167,34 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip57
 \dth@everypar=\toks26
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (C:\Users\mgolatowski\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\polski.sty
-Package: polski 2008/02/24 v1.3.3 Polish language package
+Package: polski 2017/05/04 v1.3.4 Polish language package
 
-Document language package `polski' v1.3.3 <2008/02/24>
-\l@nohyphenation=\language75
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot4enc.def"
-File: ot4enc.def 2016/06/19 v1.99m Standard LaTeX file
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot4enc.def"
+File: ot4enc.def 2017/04/05 v2.0i Standard LaTeX file
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -215,7 +207,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -237,69 +229,69 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen122
-\Hy@linkcounter=\count104
-\Hy@pagecounter=\count105
+\Hy@linkcounter=\count103
+\Hy@pagecounter=\count104
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count106
+\Hy@SavedSpaceFactor=\count105
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4362.
+Package hyperref Info: Option `unicode' set `true' on input line 4374.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count107
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count106
 
 (C:\Users\mgolatowski\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen123
-\Fld@menulength=\count108
+\Fld@menulength=\count107
 \Field@Width=\dimen124
 \Fld@charsize=\dimen125
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count109
-\c@Item=\count110
-\c@Hfootnote=\count111
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count112
-\c@bookmark@seq@number=\count113
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count111
+\c@bookmark@seq@number=\count112
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -309,25 +301,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 79.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 79.
 
-\c@definition=\count114
-\c@theorem=\count115
-\c@remark=\count116
-\c@example=\count117
+\c@definition=\count113
+\c@theorem=\count114
+\c@remark=\count115
+\c@example=\count116
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks27
 \inpenc@posthook=\toks28
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -539,6 +531,8 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -559,12 +553,14 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -604,8 +600,8 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -648,19 +644,19 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen131
 \caption@hangindent=\dimen132
 )
-\c@ContinuedFloat=\count118
+\c@ContinuedFloat=\count117
 Package caption Info: hyperref package is loaded.
 )
 
 Package amsthm Warning: Unknown theoremstyle `mythstyle' on input line 25.
 
-\c@Twierdzenie=\count119
-\c@Definicja=\count120
-\c@Stwierdzenie=\count121
-\c@Lemat=\count122
-\c@Fakt=\count123
-\c@Wniosek=\count124
-\c@Uwaga=\count125
+\c@Twierdzenie=\count118
+\c@Definicja=\count119
+\c@Stwierdzenie=\count120
+\c@Lemat=\count121
+\c@Fakt=\count122
+\c@Wniosek=\count123
+\c@Uwaga=\count124
 (mgr_modele_rynkowe_inflacji.aux)
 \openout1 = `mgr_modele_rynkowe_inflacji.aux'.
 
@@ -690,27 +686,27 @@ LaTeX Font Info:    ... okay on input line 35.
 
 (C:\Users\mgolatowski\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count125
 \scratchdimen=\dimen133
 \scratchbox=\box28
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count129
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen134
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks30
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -751,13 +747,13 @@ G,.JBIG2,.JB2,.eps]
 
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 35.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count131
 )
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
@@ -769,27 +765,30 @@ LaTeX Info: Redefining \nameref on input line 35.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-<graphics/pw.pdf, id=187, 80.2197pt x 80.2197pt>
+<graphics/pw.pdf, id=183, pagebox=cropbox, 80.2197pt x 80.2197pt>
 File: graphics/pw.pdf Graphic file (type pdf)
- <use graphics/pw.pdf>
-Package pdftex.def Info: graphics/pw.pdf used on input line 36.
-(pdftex.def)             Requested size: 60.16461pt x 60.16461pt.
+<use graphics/pw.pdf>
+Package pdftex.def Info: graphics/pw.pdf  used on input line 36. on input line 
+36.
+Package pdftex.def Info: Requested size: 60.16461pt x 60.16461pt on input line 
+36.
 LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<graphics/mini.pdf, id=188, 80.3pt x 80.3pt>
+<graphics/mini.pdf, id=184, pagebox=cropbox, 80.3pt x 80.3pt>
 File: graphics/mini.pdf Graphic file (type pdf)
- <use graphics/mini.pdf>
-Package pdftex.def Info: graphics/mini.pdf used on input line 36.
-(pdftex.def)             Requested size: 60.22484pt x 60.22484pt.
+<use graphics/mini.pdf>
+Package pdftex.def Info: graphics/mini.pdf  used on input line 36. on input lin
+e 36.
+Package pdftex.def Info: Requested size: 60.22484pt x 60.22484pt on input line 
+36.
 
 Overfull \hbox (32.43332pt too wide) in paragraph at lines 36--36
   [] 
@@ -820,85 +819,100 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
-[7] <graphics/wolumen.png, id=274, 550.30594pt x 298.11375pt>
+[7]
+<graphics/wolumen.png, id=269, 550.30594pt x 298.11375pt>
 File: graphics/wolumen.png Graphic file (type png)
-
 <use graphics/wolumen.png>
-Package pdftex.def Info: graphics/wolumen.png used on input line 100.
-(pdftex.def)             Requested size: 440.24535pt x 238.49132pt.
+Package pdftex.def Info: graphics/wolumen.png  used on input line 101. on input
+ line 101.
+Package pdftex.def Info: Requested size: 440.24535pt x 238.49132pt on input lin
+e 101.
  [8] [9 <./graphics/wolumen.png>] [10]
 Rozdzia\PlPrIeC {\l } 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
 [11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
 
  []
 
 
-Overfull \hbox (18.30966pt too wide) in alignment at lines 180--182
+Overfull \hbox (18.30966pt too wide) in alignment at lines 195--197
  [][][] []
  []
 
-[13] <graphics/rpivscpi.png, id=317, 666.99188pt x 359.09157pt>
+[13]
+<graphics/rpivscpi.png, id=312, 666.99188pt x 359.09157pt>
 File: graphics/rpivscpi.png Graphic file (type png)
-
 <use graphics/rpivscpi.png>
-Package pdftex.def Info: graphics/rpivscpi.png used on input line 209.
-(pdftex.def)             Requested size: 433.53958pt x 233.40674pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-[14 <./graphics/rpivscpi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Package pdftex.def Info: graphics/rpivscpi.png  used on input line 226. on inpu
+t line 226.
+Package pdftex.def Info: Requested size: 433.53958pt x 233.40674pt on input lin
+e 226.
+ [14 <./graphics/rpivscpi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[15] <graphics/rpi.png, id=332, 608.2725pt x 348.55219pt>
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
+
+ []
+
+<graphics/rpi.png, id=325, 608.2725pt x 348.55219pt>
 File: graphics/rpi.png Graphic file (type png)
-
 <use graphics/rpi.png>
-Package pdftex.def Info: graphics/rpi.png used on input line 246.
-(pdftex.def)             Requested size: 456.20326pt x 261.41348pt.
+Package pdftex.def Info: graphics/rpi.png  used on input line 268. on input lin
+e 268.
+Package pdftex.def Info: Requested size: 456.20326pt x 261.41348pt on input lin
+e 268.
 
-Overfull \hbox (15.18552pt too wide) in paragraph at lines 246--247
+Overfull \hbox (15.18552pt too wide) in paragraph at lines 268--269
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+[16 <./graphics/rpi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-[16 <./graphics/rpi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
@@ -907,65 +921,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 ]
 Rozdzia\PlPrIeC {\l } 3.
 
-Overfull \hbox (2.60017pt too wide) in paragraph at lines 286--286
+Overfull \hbox (2.60017pt too wide) in paragraph at lines 310--310
 []\OT4/cmr/bx/n/14.4 Rachunek ban-ko-wy, ob-li-ga-cja ze-ro-ku-po-no-wa, kon-tr
 akt swa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 326--329
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--356
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 366.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 366.
 
 Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--377
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
 
  []
 
+[20]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 384.
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--384
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 384.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 385--387
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 
  []
 
@@ -975,22 +965,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--395
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 403--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
+
+ []
+
+
+Overfull \hbox (27.78896pt too wide) in paragraph at lines 423--424
+\OT4/cmr/m/n/10.95 Rozpatrzmy ry-nek fi-nan-so-wy zªo-»o-ny z $\OML/cmm/m/it/10
+.95 d$ \OT4/cmr/m/n/10.95 in-stru-men-tów, któ-rych ce-ny $\OML/cmm/m/it/10.95 
+S[]; [] ; S[]$ \OT4/cmr/m/n/10.95 s¡ $\U/msb/m/n/10.95 F$\OT4/cmr/m/n/10.95 -ad
+aptowanymi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
@@ -1002,74 +1023,97 @@ Rozdzia\PlPrIeC {\l } 4.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Overfull \hbox (20.20085pt too wide) in alignment at lines 534--537
+Overfull \hbox (41.49512pt too wide) in alignment at lines 556--559
  [][][] []
  []
 
-[26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 606--608
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
+Overfull \hbox (26.17607pt too wide) in paragraph at lines 628--629
+[]\OT4/cmr/bx/n/10.95 Definicja 4.5. \OT4/cmr/m/it/10.95 Opcj¡ cap/floor na sto
+-p¦ in-fla-cyj-n¡ na-zy-wa-my ci¡g po-je-dyn-czych ca-ple-tów/flooretów
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
-[28] <graphics/nominalworld.png, id=449, 639.13782pt x 402.00188pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+<graphics/nominalworld.png, id=445, 639.13782pt x 402.00188pt>
 File: graphics/nominalworld.png Graphic file (type png)
-
 <use graphics/nominalworld.png>
-Package pdftex.def Info: graphics/nominalworld.png used on input line 617.
-(pdftex.def)             Requested size: 447.39342pt x 281.39938pt.
+Package pdftex.def Info: graphics/nominalworld.png  used on input line 647. on 
+input line 647.
+Package pdftex.def Info: Requested size: 447.39342pt x 281.39938pt on input lin
+e 647.
 
-Overfull \hbox (6.37567pt too wide) in paragraph at lines 617--618
+Overfull \hbox (6.37567pt too wide) in paragraph at lines 647--648
  [][] 
  []
 
-<graphics/realworld.png, id=450, 641.39626pt x 402.00188pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphics/realworld.png, id=446, 641.39626pt x 402.00188pt>
 File: graphics/realworld.png Graphic file (type png)
-
 <use graphics/realworld.png>
-Package pdftex.def Info: graphics/realworld.png used on input line 630.
-(pdftex.def)             Requested size: 448.97432pt x 281.39938pt.
+Package pdftex.def Info: graphics/realworld.png  used on input line 660. on inp
+ut line 660.
+Package pdftex.def Info: Requested size: 448.97432pt x 281.39938pt on input lin
+e 660.
 
-Overfull \hbox (7.95657pt too wide) in paragraph at lines 630--631
+Overfull \hbox (7.95657pt too wide) in paragraph at lines 660--661
  [][] 
  []
 
-[29 <./graphics/nominalworld.png>] [30 <./graphics/realworld.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] [30 <./graphics/nominalworld.png> <./graphics/realworld.png>]
 Rozdzia\PlPrIeC {\l } 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
 
  []
 
 
-Overfull \hbox (5.08664pt too wide) in paragraph at lines 654--655
-[]\OT4/cmr/m/n/10.95 Standardowo wpro-wa-dza-my rów-nie» do-dat-ko-wy do-st¦p-n
-y in-stru-ment - ra-chu-nek oszcz¦d-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 
  []
 
 [31
 
-] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
+]
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 727--729
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
 
  []
 
 [33] [34]
-Overfull \hbox (52.03232pt too wide) detected at line 828
+Overfull \hbox (48.67108pt too wide) detected at line 853
 [] \OT1/cmr/m/n/10.95 = [][]\OML/cmm/m/it/10.95 r[]\OT1/cmr/m/n/10.95 (\OML/cmm
 /m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 (
 \OML/cmm/m/it/10.95 t; T\OT1/cmr/m/n/10.95 ) + []\OMS/cmsy/m/n/10.95 jj\OML/cmm
@@ -1087,12 +1131,12 @@ cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 dW[
  []
 
 [35]
-Overfull \hbox (33.39041pt too wide) in paragraph at lines 838--838
-[] 
+Overfull \hbox (33.39041pt too wide) detected at line 863
+[]
  []
 
 [36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 925--926
+Underfull \hbox (badness 10000) in paragraph at lines 950--951
 
  []
 
@@ -1105,50 +1149,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Rozdzia\PlPrIeC {\l } 6.
 
-Overfull \hbox (21.53395pt too wide) in alignment at lines 1044--1046
+Overfull \hbox (22.36278pt too wide) in alignment at lines 1069--1071
  [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
 
  []
 
 [43]
-Overfull \hbox (1.17845pt too wide) in paragraph at lines 1075--1075
+Overfull \hbox (1.17845pt too wide) in paragraph at lines 1100--1100
 []\OT4/cmr/bx/n/14.4 Wycena swa-pa Year-on-Year in-dek-so-wa-ne-go do in-fla-cj
 i 
  []
 
 
-Overfull \hbox (1.19798pt too wide) in paragraph at lines 1078--1079
+Overfull \hbox (1.19798pt too wide) in paragraph at lines 1103--1104
 []\OT4/cmr/bx/n/10.95 Lemat 6.3. \OT4/cmr/m/it/10.95 Oznacz-my przez $[]\OT1/cm
 r/m/n/10.95 (\OML/cmm/m/it/10.95 t; T[]; T[];  []; N\OT1/cmr/m/n/10.95 )$ \OT4/
 cmr/m/it/10.95 pro-ces war-to-±ci prze-pªy-wu swa-pa Year-
  []
 
 
-Overfull \hbox (27.92674pt too wide) in paragraph at lines 1092--1092
-[] 
+Overfull \hbox (28.61816pt too wide) detected at line 1117
+[]
  []
 
 [44]
-Overfull \hbox (6.14052pt too wide) in paragraph at lines 1126--1126
-[] 
+Overfull \hbox (6.14052pt too wide) detected at line 1151
+[]
  []
 
 [45]
-Overfull \hbox (6.14052pt too wide) in paragraph at lines 1172--1172
-[] 
+Overfull \hbox (6.14052pt too wide) detected at line 1197
+[]
  []
 
 [46]
-Overfull \hbox (6.14052pt too wide) in paragraph at lines 1207--1207
-[] 
+Overfull \hbox (6.14052pt too wide) detected at line 1232
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 
  []
 
@@ -1156,14 +1200,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
 Underfull \vbox (badness 7151) has occurred while \output is active []
 
  [48]
-<graphics/realvsnominal.png, id=629, 608.2725pt x 341.77687pt>
+<graphics/realvsnominal.png, id=627, 608.2725pt x 341.77687pt>
 File: graphics/realvsnominal.png Graphic file (type png)
-
 <use graphics/realvsnominal.png>
-Package pdftex.def Info: graphics/realvsnominal.png used on input line 1244.
-(pdftex.def)             Requested size: 456.20326pt x 256.33202pt.
+Package pdftex.def Info: graphics/realvsnominal.png  used on input line 1269. o
+n input line 1269.
+Package pdftex.def Info: Requested size: 456.20326pt x 256.33202pt on input lin
+e 1269.
 
-Overfull \hbox (15.18552pt too wide) in paragraph at lines 1244--1245
+Overfull \hbox (15.18552pt too wide) in paragraph at lines 1269--1270
  [][] 
  []
 
@@ -1171,60 +1216,59 @@ Overfull \hbox (15.18552pt too wide) in paragraph at lines 1244--1245
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1258.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1283.
 
  [51] [52
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1287.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1312.
  [53]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1287.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1312.
 
 (mgr_modele_rynkowe_inflacji.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1312.
 
 Package rerunfilecheck Info: File `mgr_modele_rynkowe_inflacji.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: 692FDDC092670E732C0715C01BCD73FE;9438.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1287.
+(rerunfilecheck)             Checksum: 4CEE89C782A1FE0C4D3263F2A6E80EEB;9249.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1312.
  ) 
 Here is how much of TeX's memory you used:
- 12030 strings out of 493334
- 168192 string characters out of 3136654
- 251954 words of memory out of 3000000
- 15154 multiletter control sequences out of 15000+200000
+ 11985 strings out of 493312
+ 167393 string characters out of 3138881
+ 248309 words of memory out of 3000000
+ 15129 multiletter control sequences out of 15000+200000
  21569 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,45p,1644b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,45p,1644b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plit.enc}
 {C:/Users/mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}{C
 :/Users/mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plsc.enc}<C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/mgolatowski/AppDa
-ta/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx10.pfb><C:/Users/mgolatowski/Ap
-pData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/mgolatowski
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbxti10.pfb><C:/Users/mgolat
-owski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plcsc10.pfb><C:/Users/mg
-olatowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/
-mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/User
-s/mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10.pfb><C:/U
-sers/mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plti10.pfb>
-Output written on mgr_modele_rynkowe_inflacji.pdf (53 pages, 691121 bytes).
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/mgolatowski/AppData/Ro
+aming/MiKTeX/2.9/fonts/type1/public/pl/plbx10.pfb><C:/Users/mgolatowski/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/mgolatowski/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plbxti10.pfb><C:/Users/mgolatowski
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plcsc10.pfb><C:/Users/mgolato
+wski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/mgola
+towski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/mgo
+latowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/
+mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plti10.pfb>
+Output written on mgr_modele_rynkowe_inflacji.pdf (53 pages, 686519 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 266 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 790 PDF objects out of 1000 (max. 8388607)
+ 268 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
