@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.12)  19 JAN 2018 02:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.12)  20 JAN 2018 00:59
 entering extended mode
 **./mgr_modele_rynkowe_inflacji.tex
 (mgr_modele_rynkowe_inflacji.tex
@@ -861,58 +861,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--186
 
  []
 
-
-Overfull \hbox (18.30966pt too wide) in alignment at lines 195--197
- [][][] []
- []
-
 [13]
-<graphics/rpivscpi.png, id=312, 666.99188pt x 359.09157pt>
+<graphics/rpivscpi.png, id=311, 666.99188pt x 359.09157pt>
 File: graphics/rpivscpi.png Graphic file (type png)
 <use graphics/rpivscpi.png>
-Package pdftex.def Info: graphics/rpivscpi.png  used on input line 226. on inpu
-t line 226.
+Package pdftex.def Info: graphics/rpivscpi.png  used on input line 222. on inpu
+t line 222.
 Package pdftex.def Info: Requested size: 433.53958pt x 233.40674pt on input lin
-e 226.
- [14 <./graphics/rpivscpi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+e 222.
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+[14 <./graphics/rpivscpi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-<graphics/rpi.png, id=325, 608.2725pt x 348.55219pt>
+<graphics/rpi.png, id=326, 608.2725pt x 348.55219pt>
 File: graphics/rpi.png Graphic file (type png)
 <use graphics/rpi.png>
-Package pdftex.def Info: graphics/rpi.png  used on input line 268. on input lin
-e 268.
+Package pdftex.def Info: graphics/rpi.png  used on input line 264. on input lin
+e 264.
 Package pdftex.def Info: Requested size: 456.20326pt x 261.41348pt on input lin
-e 268.
+e 264.
 
-Overfull \hbox (15.18552pt too wide) in paragraph at lines 268--269
+Overfull \hbox (15.18552pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
 [16 <./graphics/rpi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
@@ -921,41 +917,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--300
 ]
 Rozdzia\PlPrIeC {\l } 3.
 
-Overfull \hbox (2.60017pt too wide) in paragraph at lines 310--310
+Overfull \hbox (2.60017pt too wide) in paragraph at lines 306--306
 []\OT4/cmr/bx/n/14.4 Rachunek ban-ko-wy, ob-li-ga-cja ze-ro-ku-po-no-wa, kon-tr
 akt swa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Overfull \hbox (9.06pt too wide) in paragraph at lines 356--358
+\OT4/cmr/m/it/10.95 jest pro-ce-sem Wie-ne-ra przy mie-rze pro-ba-bi-li-stycz-n
+ej $\U/msb/m/n/10.95 Q$ \OT4/cmr/m/it/10.95 wzgl¦-dem fil-tra-cji $\U/msb/m/n/1
+0.95 F$ \OT4/cmr/m/it/10.95 dla ka»-de-go $[]$. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
 
 [20]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 384.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 370.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 384.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 370.
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--390
+Underfull \hbox (badness 10000) in paragraph at lines 374--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
 
@@ -965,31 +983,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 393--395
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--405
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--409
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
-
- []
-
-
-Overfull \hbox (27.78896pt too wide) in paragraph at lines 423--424
+Overfull \hbox (27.78896pt too wide) in paragraph at lines 413--414
 \OT4/cmr/m/n/10.95 Rozpatrzmy ry-nek fi-nan-so-wy zªo-»o-ny z $\OML/cmm/m/it/10
 .95 d$ \OT4/cmr/m/n/10.95 in-stru-men-tów, któ-rych ce-ny $\OML/cmm/m/it/10.95 
 S[]; [] ; S[]$ \OT4/cmr/m/n/10.95 s¡ $\U/msb/m/n/10.95 F$\OT4/cmr/m/n/10.95 -ad
 aptowanymi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
  []
 
 
@@ -998,20 +1016,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--424
  []
 
 
-Underfull \vbox (badness 2205) has occurred while \output is active []
-
- [21]
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
+Underfull \hbox (badness 10000) in paragraph at lines 435--437
 
  []
 
@@ -1023,60 +1028,61 @@ Rozdzia\PlPrIeC {\l } 4.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Overfull \hbox (41.49512pt too wide) in alignment at lines 556--559
+Overfull \hbox (41.49512pt too wide) in alignment at lines 546--549
  [][][] []
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 574--576
+Underfull \hbox (badness 10000) in paragraph at lines 564--566
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 606--608
+Underfull \hbox (badness 10000) in paragraph at lines 596--598
 
  []
 
 
-Overfull \hbox (26.17607pt too wide) in paragraph at lines 628--629
+Overfull \hbox (26.17607pt too wide) in paragraph at lines 614--615
 []\OT4/cmr/bx/n/10.95 Definicja 4.5. \OT4/cmr/m/it/10.95 Opcj¡ cap/floor na sto
 -p¦ in-fla-cyj-n¡ na-zy-wa-my ci¡g po-je-dyn-czych ca-ple-tów/flooretów
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
+
+ []
+
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-<graphics/nominalworld.png, id=445, 639.13782pt x 402.00188pt>
+<graphics/nominalworld.png, id=443, 639.13782pt x 402.00188pt>
 File: graphics/nominalworld.png Graphic file (type png)
 <use graphics/nominalworld.png>
-Package pdftex.def Info: graphics/nominalworld.png  used on input line 647. on 
-input line 647.
+Package pdftex.def Info: graphics/nominalworld.png  used on input line 633. on 
+input line 633.
 Package pdftex.def Info: Requested size: 447.39342pt x 281.39938pt on input lin
-e 647.
+e 633.
 
-Overfull \hbox (6.37567pt too wide) in paragraph at lines 647--648
+Overfull \hbox (6.37567pt too wide) in paragraph at lines 633--634
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphics/realworld.png, id=446, 641.39626pt x 402.00188pt>
+<graphics/realworld.png, id=444, 641.39626pt x 402.00188pt>
 File: graphics/realworld.png Graphic file (type png)
 <use graphics/realworld.png>
-Package pdftex.def Info: graphics/realworld.png  used on input line 660. on inp
-ut line 660.
+Package pdftex.def Info: graphics/realworld.png  used on input line 646. on inp
+ut line 646.
 Package pdftex.def Info: Requested size: 448.97432pt x 281.39938pt on input lin
-e 660.
+e 646.
 
-Overfull \hbox (7.95657pt too wide) in paragraph at lines 660--661
+Overfull \hbox (7.95657pt too wide) in paragraph at lines 646--647
  [][] 
  []
 
@@ -1086,34 +1092,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [29] [30 <./graphics/nominalworld.png> <./graphics/realworld.png>]
 Rozdzia\PlPrIeC {\l } 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
 
  []
 
 [31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 727--729
+Underfull \hbox (badness 10000) in paragraph at lines 713--715
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--740
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
 
  []
 
 [33] [34]
-Overfull \hbox (48.67108pt too wide) detected at line 853
+Overfull \hbox (48.67108pt too wide) detected at line 831
 [] \OT1/cmr/m/n/10.95 = [][]\OML/cmm/m/it/10.95 r[]\OT1/cmr/m/n/10.95 (\OML/cmm
 /m/it/10.95 t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 (
 \OML/cmm/m/it/10.95 t; T\OT1/cmr/m/n/10.95 ) + []\OMS/cmsy/m/n/10.95 jj\OML/cmm
@@ -1130,13 +1136,13 @@ cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 dW[
 0.95 :
  []
 
-[35]
-Overfull \hbox (33.39041pt too wide) detected at line 863
+
+Overfull \hbox (33.39041pt too wide) detected at line 841
 []
  []
 
-[36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+[35] [36] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
@@ -1149,50 +1155,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Rozdzia\PlPrIeC {\l } 6.
 
-Overfull \hbox (22.36278pt too wide) in alignment at lines 1069--1071
+Overfull \hbox (22.36278pt too wide) in alignment at lines 1047--1049
  [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
 
  []
 
 [43]
-Overfull \hbox (1.17845pt too wide) in paragraph at lines 1100--1100
+Overfull \hbox (1.17845pt too wide) in paragraph at lines 1078--1078
 []\OT4/cmr/bx/n/14.4 Wycena swa-pa Year-on-Year in-dek-so-wa-ne-go do in-fla-cj
 i 
  []
 
 
-Overfull \hbox (1.19798pt too wide) in paragraph at lines 1103--1104
+Overfull \hbox (1.19798pt too wide) in paragraph at lines 1081--1082
 []\OT4/cmr/bx/n/10.95 Lemat 6.3. \OT4/cmr/m/it/10.95 Oznacz-my przez $[]\OT1/cm
 r/m/n/10.95 (\OML/cmm/m/it/10.95 t; T[]; T[];  []; N\OT1/cmr/m/n/10.95 )$ \OT4/
 cmr/m/it/10.95 pro-ces war-to-±ci prze-pªy-wu swa-pa Year-
  []
 
 
-Overfull \hbox (28.61816pt too wide) detected at line 1117
+Overfull \hbox (28.61816pt too wide) detected at line 1095
 []
  []
 
 [44]
-Overfull \hbox (6.14052pt too wide) detected at line 1151
+Overfull \hbox (6.14052pt too wide) detected at line 1129
 []
  []
 
 [45]
-Overfull \hbox (6.14052pt too wide) detected at line 1197
+Overfull \hbox (6.14052pt too wide) detected at line 1175
 []
  []
 
 [46]
-Overfull \hbox (6.14052pt too wide) detected at line 1232
+Overfull \hbox (6.14052pt too wide) detected at line 1210
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
 
  []
 
@@ -1200,15 +1206,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 Underfull \vbox (badness 7151) has occurred while \output is active []
 
  [48]
-<graphics/realvsnominal.png, id=627, 608.2725pt x 341.77687pt>
+<graphics/realvsnominal.png, id=621, 608.2725pt x 341.77687pt>
 File: graphics/realvsnominal.png Graphic file (type png)
 <use graphics/realvsnominal.png>
-Package pdftex.def Info: graphics/realvsnominal.png  used on input line 1269. o
-n input line 1269.
+Package pdftex.def Info: graphics/realvsnominal.png  used on input line 1247. o
+n input line 1247.
 Package pdftex.def Info: Requested size: 456.20326pt x 256.33202pt on input lin
-e 1269.
+e 1247.
 
-Overfull \hbox (15.18552pt too wide) in paragraph at lines 1269--1270
+Overfull \hbox (15.18552pt too wide) in paragraph at lines 1247--1248
  [][] 
  []
 
@@ -1216,29 +1222,29 @@ Overfull \hbox (15.18552pt too wide) in paragraph at lines 1269--1270
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1283.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1261.
 
  [51] [52
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1290.
  [53]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1290.
 
 (mgr_modele_rynkowe_inflacji.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1290.
 
 Package rerunfilecheck Info: File `mgr_modele_rynkowe_inflacji.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: 4CEE89C782A1FE0C4D3263F2A6E80EEB;9249.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1312.
+(rerunfilecheck)             Checksum: 3736227E0ECC988648D3F0B0F24B2B34;9272.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1290.
  ) 
 Here is how much of TeX's memory you used:
- 11985 strings out of 493312
- 167393 string characters out of 3138881
- 248309 words of memory out of 3000000
- 15129 multiletter control sequences out of 15000+200000
+ 11977 strings out of 493312
+ 167303 string characters out of 3138881
+ 249278 words of memory out of 3000000
+ 15127 multiletter control sequences out of 15000+200000
  21569 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,45p,1644b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1266,9 +1272,9 @@ wski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/mgola
 towski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/mgo
 latowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/
 mgolatowski/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plti10.pfb>
-Output written on mgr_modele_rynkowe_inflacji.pdf (53 pages, 686519 bytes).
+Output written on mgr_modele_rynkowe_inflacji.pdf (53 pages, 686175 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 268 named destinations out of 1000 (max. 500000)
+ 783 PDF objects out of 1000 (max. 8388607)
+ 262 named destinations out of 1000 (max. 500000)
  401 words of extra memory for PDF output out of 10000 (max. 10000000)
 

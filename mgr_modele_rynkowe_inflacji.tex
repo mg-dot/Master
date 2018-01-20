@@ -175,33 +175,29 @@
 
 	\section{Konwencja indeksowania}
 	
-	W standardowej konwencji instrumenty finansowe indeksowane do inflacji używają wartości indeksu cen - indeksu referencyjnego (ang. Reference Index). Praktycznie jest on powiązany z indeksem wzrostu cen za dany miesiąc (odnoszący się do pierwszego dnia miesiąca), a wartość wskaźnika jest ustalone z odpowiednim opóźnieniem (zazwyczaj opóźnienie jest równe trzem miesiącom).\\
+	W standardowej konwencji instrumenty finansowe indeksowane do inflacji używają wartości indeksu referencyjnego (ang. Reference Index). Praktycznie jest on powiązany z indeksem wzrostu cen za konkretny miesiąc (odnoszący się do pierwszego dnia miesiąca), a wartość wskaźnika jest wyznaczana z odpowiednim opóźnieniem (zazwyczaj opóźnienie jest równe trzem miesiącom).\\
 	
 	\begin{Definicja}
 		Indeksem referencyjnym (ang, Reference index) nazywamy wybrany indeks wzrostu cen (inflacji) odpowiadający ustalonemu miesiącowi
 	\begin{eqnarray*}
-		Reference\_Index = Price\_Index(m),
+		Reference_{Index} = Price_{Index}(m),
 	\end{eqnarray*}
 	gdzie $m$ oznacza ustalony miesiąc.\\
 	\end{Definicja}
 
 	\begin{Uwaga}
-	Może się też zdarzyć, że instrument wykorzystuje indeks referencyjny powiązany z inną datą niż data płatności. Dla przykładu w standardowej miesięcznej konwencji instrument finansowy, dla którego następuje przepływ w 4 dniu listopada (ang. payment date) z ustalonym opóźnieniem indeksu równym trzem miesiącom wykorzysta wartość indeksu z sierpnia. 
+	Może się też zdarzyć, że instrument wykorzystuje indeks referencyjny powiązany z inną datą niż data płatności lub data startu. Dla przykładu w standardowej konwencji instrument finansowy, dla którego następuje przepływ w 4 dniu listopada z ustalonym opóźnieniem indeksu równym trzem miesiącom wykorzysta wartość indeksu z sierpnia (z pierwszego dnia sierpnia). 
 	\end{Uwaga}
-
+	
 	\section{Interpolacja indeksu}
 	
-	W przypadkach niestandardowych wartość współczynnika inflacji jest interpolowana liniowo pomiędzy dwoma miesiącami i wykonywana dla wartości w miesiącu płatności. Końcowa wartość współczynnika wzrostu cen wyznaczana jest następująco
-	\begin{eqnarray*}
-		Reference\_Index = Price\_Index(m_1) + \bigg(\frac{d - 1}{D}\bigg) \bigg(Price\_Index(m_2) - Price\_Index(m_1)\bigg),
-	\end{eqnarray*}
-	gdzie $d$ oznacza dzień miesiąca daty terminu płatności, zaś $D$  liczbę dni kalendarzowych w miesiącu płatności. Referencyjny indeks dla daty startu transakcji jest obliczany w ten sam sposób przy zastosowaniu daty rozpoczęcia transakcji.
+	W przypadkach niestandardowych wartość współczynnika inflacji jest interpolowana liniowo pomiędzy dwoma punktami w czasie. W przypadku daty startu interpolowana jest stawka indeksu referencyjnego pomiędzy historycznymi wartościami, natomiast w przypadku przyszłej wymiany płatności interpolowana jest stawka pomiędzy węzłami krzywej terminowej indeksu cen. Wartość współczynnika wzrostu cen jest wyznaczana najczęściej przy wykorzystaniu interpolacji liniowej.
 	
 	\section{Notacja indeksu}
 	
 	Określamy, że wartość referencyjnego indeksu cen będziemy oznaczać symbolem $I(t)$ dla $t \le T^*$, gdzie $T^*$ to ustalony horyzont czasowy. Oznacza to, że będąc w chwili czasu $t$ równej dacie 2016/11/20 i zachowując standardową konwencję opóźnienia trzymiesięcznego oraz wartości indeksu z początku miesiąca (nieinterpolowaną) wartość referencyjnego indeksu będzie równa
 	\begin{eqnarray*}
-		I(t) = Price\_Index(Sierpien2016).
+		I(t) = Price_{Index}(01/08/2016).
 	\end{eqnarray*}
 	W poniżeszj tabeli przedstawiono standardowe konwencje kwotowań swapów zerokuponowych
 	\begin{center}
@@ -238,7 +234,7 @@
 
 	Oddzielnym czynnikiem, który należy wziąć pod uwagę jest fakt, że obligacje różnią się procedurą podejścia do zjawiska przeciwstawnego - deflacji. Przykładem może być Japonia, w której spadek cen w dłuższych okresach czasu może spowodować, że wskaźnik spadnie poniżej jednostki. W takiej sytuacji kupon nominalny jest mniejszy niż kupon rzeczywisty lub wartość nominalna obligacji spadnie poniżej 100. W wielu krajach (USA, Francja, Włochy, Szwecja) istnieje zabezpieczenie przed takim zjawiskiem poprzez nałożenie ograniczenia dolnego, gdzie wartość nominalna obligacji nie może spaść poniżej 100. Wprowadzenie takiego zabezpieczenia stanowi wbudowaną opcję,która powinna zostać uwzględniona przy wycenie instrumentu. Ponadto w przypadku obligacji korporacyjnych należy pamiętać o włączeniu do wyceny premii związanej z ryzykiem kredytowym kontrahenta (ryzykiem niedotrzymania warunków umowy) i płynności (ryzyko braku płynności instrumentu występuje jeśli warunki rynkowe uniemożliwiają dokonanie transakcji kupna/sprzedaży danego instrumentu). Standardem w przypadku obligacji komercyjnych jest także wbudowana opcja przedwczesnego wykupienia obligacji przez emitenta. W praktyce rynkowej cenę każdej z powyższych wbudowanych opcji wyraża się w postaci czynnika korygującego (ang. Option Adjusted Spread) oraz  spreadu związanego z ryzykiem kredytowym i płynności, który jest dodawany do faktora dyskontującego przyszłe przepływy. W tej pracy będziemy rozważać jedynie wyceny bez uwzględnienia powyższych opcji i ryzyk.
 			
-	\subsection{Interpolacja}
+	\subsection{Krzywa terminowa}
 	
 	Krzywa terminowa (zależność pomiędzy wielkością indeksu a terminem jego wyznaczenia w przyszłości) indeksu cen wyznaczana jest przy wykorzystaniu informacji dotyczących aktualnych kwotowań instrumentów powiązanych inflacją, które notowane  są zazwyczaj w odstępach rocznych lub kilkuletnich. Dostępne na rynku są kwotowania o następujących terminach zapadalności: 1Y, 2Y, 3Y, 4Y, 5Y, 6Y, 7Y, 8Y, 9Y, 10Y, 12Y, 15Y, 20Y, 25Y, 30Y, 40Y, 50Y. Nie znamy jednak wartości w datach zapadalności dla każdej chwili w przyszłości, dlatego aby wyznaczyć wartości krzywej w terminach pomiędzy dostępnymi węzłami stosujemy interpolacje. Jedną z możliwych i najczęściej wykorzystywaną jest metoda interpolacji logarytmicznej. \\
 	
@@ -277,14 +273,14 @@
 	\end{Definicja}
 	
 	\begin{Definicja}
-		Multiplikatywnym czynnikiem sezonowości $Adj(t,m)$ korygującym początkową wartość ceny dla roku $t$ nazywamy funkcję spełniającą równanie
+		Multiplikatywnym czynnikiem sezonowości $Adj(t) = Adj(y,m)$ korygującym początkową wartość ceny w roku $y = year(t)$ i miesiącu $m = month(t)$ nazywamy funkcję spełniającą równanie
 		\begin{eqnarray*}
-			Adj(t, m_{i+1})  = f_i * Adj(t, m_i)
+			Adj(y, m_{i+1})  = f_i * Adj(y, m_i)
 		\end{eqnarray*}
 	\end{Definicja}
 
 	\begin{Uwaga}
-		Korektę dla stycznia $Adj(t, m_1)$ wyznaczamy przy pomocy korekty grudniowej $Adj(t, m_0)$.\\
+		Korektę dla stycznia $Adj(y, m_1)$ wyznaczamy przy pomocy korekty grudniowej $Adj(y, m_0)$.\\
 	\end{Uwaga}
 
 	\begin{Uwaga}
@@ -294,9 +290,9 @@
 		\end{eqnarray*}
 		Wówczas skorygowany indeks ceny jest równy
 		\begin{eqnarray*}
-			I(t,m) = Adj(t,m) * I_{notAdj}(t,m),
+			I(y,m) = Adj(y,m) * I_{notAdj}(y,m),
 		\end{eqnarray*}
-		gdzie $I_{notAdj}(t,m)$ jest wartością indeksu przed uwzględnieniem sezonowości.\\
+		gdzie $I_{notAdj}(y,m)$ jest wartością indeksu przed uwzględnieniem sezonowości.\\
 	\end{Uwaga}
 		
 	\begin{Uwaga}
@@ -342,33 +338,23 @@
 	dla każdego $A \in {\cal F}$ oraz $\varrho$ jest dodatnią zmienną losową mierzalną względem ${\cal F}$.\\ 
 	Ponadto zachodzi $$\frac{d \mathbb{P}}{d \mathbb{Q}} = \frac{1}{\varrho}.$$
 \end{Twierdzenie}
-\begin{Definicja}\textbf{Eksponenta stochastyczna}\\
-	Jeśli proces $\gamma \in {\cal P}_t$, to równanie
-	\begin{equation}
-	dX_t = \gamma_t X_t dW_t,\quad X_0 = 1
-	\end{equation}
-	ma dokładnie jedno rozwiązanie nazywane eksponentą stochastyczną i jest ono zadane wzorem
-	\begin{equation} \label{Dolean}
-	X_t = \exp \left( \int_0^t \gamma_s dW_s - \frac{1}{2} \int_0^t
-	\gamma_s^2 ds\right) = \exp \left(M_t - \frac{1}{2} \langle M \rangle_t \right),
-	\end{equation} gdzie $M_t=\int_0^t \gamma_sdW_s$.\\ 
+\begin{Stwierdzenie}\textbf{Eksponenta stochastyczna}\\
+	Załóżmy, że $X$ jest ciągłym martyngałem lokalnym, zaś $Y_0$ zmienną $\mathcal{F}_0$-mierzalną. Wówczas proces $Y_t = exp(M_t - \frac{1}{2}<M>_t)$ jest martyngałem lokalnym takim, że $dY_t = Y_tdM_t$, tzn. $Y_t = Z_0 + \int_0^t Y_udM_u$. Proces $Y$ nazywamy eksponentą stochastyczną. \\
 	
-\end{Definicja}
+\end{Stwierdzenie}
 
 \begin{Twierdzenie}\textbf{Twierdzenie Girsanowa}\\
 	Niech $T < \infty$ i niech $\mathbb{Q}$ będzie miarą
-	probabilistyczną równoważną $\mathbb{P}$ na $(\Omega, {\cal F}_T)$
-	taką, że
+	probabilistyczną równoważną $\mathbb{P}$ na $(\Omega, {\cal F}_T)$ taką, że
 	\begin{equation}
 	\frac{d \mathbb{Q}}{d \mathbb{P}} = \varrho_T = \exp\left(\int_0^T \gamma_s d
 	W_s - \frac{1}{2} \int_0^T \gamma_s^2 ds\right)
 	\end{equation}
 	dla pewnego $\gamma \in {\cal P}_T$. Jeśli $W = (W_t)_{t \in [0, T]}$ jest procesem Wienera przy mierze probabilistycznej $\mathbb{P}$ względem filtracji $\mathbb{F}$, to proces $\widetilde{W}$ zdefiniowany wzorem
 	\[
-	\widetilde{W}_t = W_t - \int_0^t \gamma_s ds \ \ \forall_{t \in [0,
-		T]}
+	\widetilde{W}_t = W_t - \int_0^t \gamma_s ds
 	\]
-	jest procesem Wienera przy mierze probabilistycznej $\mathbb{Q}$ względem filtracji $\mathbb{F}$.\\
+	jest procesem Wienera przy mierze probabilistycznej $\mathbb{Q}$ względem filtracji $\mathbb{F}$ dla każdego ${t \in [0,T]}$.\\
 	
 \end{Twierdzenie}
 
@@ -389,6 +375,10 @@
 		czyli zdyskontowany proces bogactwa, jest $\mathbb{P}^*$-martyngałem względem filtracji $(\mathcal{F}_t)$.\\
 	\end{itemize}
 \end{Definicja}
+
+\begin{Twierdzenie}
+	Miara $\mathbb{P}^*$ jest miarą martyngałową dla rynku $\mathcal{M}$ wtedy i tylko wtedy, gdy $\mathbb{P}^*$ jest miarą martyngałową dla zdyskontowanego procesu cen.\\
+\end{Twierdzenie}
 \begin{Twierdzenie}
 	\textbf{Pierwsze podstawowe twierdzenie matematyki finansowej}\\
 	Rynek $\mathcal{M}$ jest rynkiem bez możliwości arbitrażu wtedy i tylko wtedy gdy istnieje miara martyngałowa.\\
@@ -604,13 +594,9 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 	\begin{eqnarray*}
 		N\psi_i\bigg[\frac{I(T_i)}{I(T_{i-1})} - 1\bigg]
 	\end{eqnarray*}
-	w każdym momencie $T_i$. \\
+	w każdym roku w momencie $T_i$. \\
 	\end{Definicja}
 	
-	\begin{Uwaga}
-		Przykładowo, jeżeli dla nogi stałej płatności następują co pół roku to $\theta_i = 0.5$ a dla nogi zmiennej co kwartał to $\psi_i = 0.25$). 
-	\end{Uwaga}
-
 	Podobnie jak w przypadku instrumentów zerokuponowych swapy Year-on-Year indeksowane do inflacji są notowane na rynku, jednak ich płynność jest niższa (mała aktywność w tym segmencie rynku, brak notowań) niż w przypadku tych pierwszych, które uważane są za główne punkty odniesienia na rynku instrumentów pochodnych inflacji.
 		
 	\section{Opcje inflacyjne}
@@ -619,7 +605,7 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 			Binarnym Capletem (ang. Inflation Indexed Caplet, IIC)/Flooretem (ang. Inflation Indexed Flooret, IIF) inflacyjnym nazywamy pojedynczą opcję kupna/sprzedaży stopy inflacyjnej $I(t)$, która rozpoczyna się w chwili $T_{i-1}$ i kończy w chwili $T_i$.
 			Wypłata w momencie $T_i$ jest równa
 			\begin{eqnarray*}
-				N^{*}\psi_i\bigg[\omega\bigg(\frac{I(T_i)}{(T_{i-1})} - 1 - K \bigg)\bigg]^{+},
+				N^{*}\psi_i\bigg[\omega\bigg(\frac{I(T_i)}{I(T_{i-1})} - 1 - K \bigg)\bigg]^{+},
 			\end{eqnarray*}
 			gdzie K oznacza ustaloną wartość ceny wykonania (ang. strike) określającej poziom stopy inflacyjnej, N nominał opcji, $\psi_i$ oznacza długość okresu obowiązywania stopy inflacyjnej - okres między  $T_{i-1}$ a $T_i$ zaś $\omega = 1$ dla capleta oraz $\omega = -1$ dla flooreta.
 	\end{Definicja}
@@ -628,7 +614,7 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 		Opcją cap/floor na stopę inflacyjną nazywamy ciąg pojedynczych capletów/flooretów z tą samą ceną wykonania K i jednakowym nominałem N dla kolejnych jednakowych okresów depozytowych obejmujących łączenie czas trwania opcji cap/floor.
 	\end{Definicja}
 
-	Opcja cap jest stosowana w celu zabezpieczenia przed zmianą inflacji powyżej ustalonego kursu zaś opcja floor chroni inwestycję przed skokami inflacji poniżej ustalonego poziomu. Binarne capy/floory inflacyjne są najczęściej elementami składowymi finansowych produktów strukturalnych powiązanych z inflacją.\\\\
+	Opcja cap jest stosowana w celu zabezpieczenia przed zmianą inflacji powyżej ustalonego kursu zaś opcja floor chroni inwestycję przed skokami inflacji poniżej ustalonego poziomu. Binarne capy/floory inflacyjne są najczęściej elementami składowymi finansowych produktów strukturalnych powiązanych z inflacją np. Limited Price Indexation (LPI) Swaps czyli kontrakty swap, w których wartość stopy zmiennej (stopy inflacyjnej) jest ograniczona z dołu przez 0\% i z góry przez 5\%.\\\\
 	
 	\section{Obligacja tradycyjna kontra obligacja inflacyjna}
 	
@@ -739,7 +725,7 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 	Powyższe rozważania dotyczące struktury terminowej cen obligacji względem stopy nominalnej i rzeczywistej pozwalają na sformułowanie kluczowego twierdzenia przedstawiającego warunki konieczne i wystarczające do otrzymania rynku bez możliwości arbitrażu.\\
 	
 	\begin{Twierdzenie} \textbf{Bezarbitrażowa struktura terminowa}\\
-		Zakładając, że dane są stopy forward prcesy:
+		Procesy:
 		\begin{eqnarray*}
 			\bigg(\frac{P_n(t,T)}{B_n(t)}\bigg)_{t\le T}, \bigg(\frac{I(t)P_r(t,T)}{B_n(t)}\bigg)_{t\le T}, \bigg(\frac{I(t)B_r(t)}{B_n(t)}\bigg)_{t\le T}
 		\end{eqnarray*}
@@ -753,56 +739,51 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 	
 	\begin{proof}
 		
-		Pierwsze równanie  jest warunkiem dryfu przy metodzie HJM dla nominalnej stopy forwardowej, analogicznie kolejne jest warunkiem dla rzeczywistej stopy forwardowej uwzględniające zmienność inflacji a także współczynnik korelacji pomiędzy inflacją a rzeczywistą stopą forwardową. Ostatnie równanie jest równaniem Fishera łączącym zależność pomiędzy nominalną i realną stopą procentową oraz oczekiwaną inflacją i premią za ryzyko inflacyjne. 
-
-	\subsection*{Dynamika procesu cen obligacji}
-	Punktem wyjścia do wyprowadzenia warunków koniecznych gwarantujących brak możliwości arbitrażu w trójfaktorowym modelu rynku inflacji jest postać dynamiki procesu cen obligacji zerokuponowej $P_k(t,T)$, gdzie $k \in\{r,n\}$. Określamy ją w następujący sposób
-	\begin{equation*}
-	dP_k(t,T) = P_k(t,T) \bigg((f(t,t)+\alpha_k^*(t,T)+\frac{1}{2} ||\sigma_k^*(t,T)||^2 )dt +\sigma_k^*(t,T) dW_k^\mathbb{P}(t)\bigg),
-	\end{equation*}
-	gdzie dla każdego $t\in[0,T]$ oznaczamy
-	\begin{align}
-	\alpha_k^*(t,T) &:= - \int_{t}^{T} \alpha_k(t,u) du,\\
-	\sigma_k^*(t,T) &:= - \int_{t}^{T} \sigma_k(t,u) du.
-	\end{align}
-	\subsection*{Rachunek oszczędnościowy}
-	Niech $B_r^*(t) = I(t) B_r(t)$. Otrzymujemy wówczas
-	\begin{align*}
-	d B_r^*(t) &= B_r(t) dI(t) + I(t)dB_r(t) \\
-	&= B_r(t) dI(t) + I(t)r_r(t) B_r(t) dt \\
-	&= B_r(t) (I(t) [\mu_I(t)dt + \sigma_I(t)dW_I^\mathbb{P}(t) ] + I(t)r_r(t)dt) \\
-	&= B_r(t) I(t) ([\mu_I(t) + r_r(t) ]dt + \sigma_I(t) dW_I^\mathbb{P}(t)).
-	\end{align*}
-	Mamy więc
-	\begin{equation}
-	\frac{dB_r^*(t)}{B_r^*(t)} = [\mu_I(t) + r_r(t) ]dt + \sigma_I(t) dW_I^\mathbb{P}(t).
-	\end{equation}
-	Dynamika procesu $B_r^*(t)$ dyskontowanego procesem $B_n(t)$ zapiszemy jako
-	\begin{align*}
-	d\bigg(\frac{B_r^*(t)}{B_n(t)}\bigg) &= \frac{d B_r^*(t)}{B_n(t)} - \frac{B^*(t) d B_n(t)}{B_n(t)^2}\\
-	&= \frac{d B_r^*(t)}{B_n(t)} - \frac{B_r^*(t)r_n(t)B_n(t)dt}{B_n(t)^2}\\
-	&= \frac{d B_r^*(t)}{B_n(t)} - \frac{B_r^*(t)}{B_n(t)}r_n(t)\\
-	&= \frac{B_r^*(t)}{B_n(t)} \bigg( [\mu_I(t) + r_r(t) - r_n(t)]dt + \sigma_I(t) dW_I^\mathbb{P}(t)\bigg).
-	\end{align*}
-	Względem miary martyngałowej $\mathbb{Q}$ równoważnej mierze $\mathbb{P}$:
-	\begin{equation*}
-	d\bigg(\frac{B_r^*(t)}{B_n(t)} \bigg) = \frac{B_r^*(t)}{B_n(t)} [\sigma_I(t) dW_I^\mathbb{P}(t)],
-	\end{equation*}
-	gdzie
-	\begin{equation*}
-	W_I^\mathbb{Q}(t) = W_I^\mathbb{P}(t) - \int_{0}^{t} \lambda_I(u) du.
-	\end{equation*}
-	Otrzymujemy wówczas warunek
-	\begin{equation}
-	\mu_I(t) + r_r(t) - r_n(t) = -\lambda_I(t) \sigma_I(t),
-	\end{equation}
-	i stąd
-	\begin{equation}
-	\mu_I(t) =  r_n(t) - r_r(t) - \lambda_I(t) \sigma_I(t).
-	\end{equation}
+		Pierwsze równanie  jest warunkiem dryfu przy metodzie HJM dla nominalnej stopy forwardowej, analogicznie kolejne jest warunkiem dla rzeczywistej stopy forwardowej uwzględniające zmienność inflacji a także współczynnik korelacji pomiędzy inflacją i rzeczywistą stopą forwardową. Ostatnie równanie jest równaniem Fishera łączącym zależność pomiędzy nominalną i realną stopą procentową oraz oczekiwaną inflacją i premią za ryzyko inflacyjne. Punktem wyjścia do wyprowadzenia warunków koniecznych gwarantujących brak możliwości arbitrażu w trójfaktorowym modelu rynku inflacji jest postać dynamiki procesu cen obligacji zerokuponowej $P_k(t,T)$, gdzie $k \in\{r,n\}$. Określamy ją w następujący sposób
+		\begin{equation*}
+		dP_k(t,T) = P_k(t,T) \bigg((f(t,t)+\alpha_k^*(t,T)+\frac{1}{2} ||\sigma_k^*(t,T)||^2 )dt +\sigma_k^*(t,T) dW_k^\mathbb{P}(t)\bigg),
+		\end{equation*}
+		gdzie dla każdego $t\in[0,T]$ oznaczamy
+		\begin{align}
+		\alpha_k^*(t,T) &:= - \int_{t}^{T} \alpha_k(t,u) du,\\
+		\sigma_k^*(t,T) &:= - \int_{t}^{T} \sigma_k(t,u) du.
+		\end{align}
+		W pierwszym kroku zostanie udowodniony warunek trzeci. Niech $B_r^*(t) = I(t) B_r(t)$. Otrzymujemy wówczas
+		\begin{align*}
+		d B_r^*(t) &= B_r(t) dI(t) + I(t)dB_r(t) \\
+		&= B_r(t) dI(t) + I(t)r_r(t) B_r(t) dt \\
+		&= B_r(t) (I(t) [\mu_I(t)dt + \sigma_I(t)dW_I^\mathbb{P}(t) ] + I(t)r_r(t)dt) \\
+		&= B_r(t) I(t) ([\mu_I(t) + r_r(t) ]dt + \sigma_I(t) dW_I^\mathbb{P}(t)).
+		\end{align*}
+		Mamy więc
+		\begin{equation}
+		\frac{dB_r^*(t)}{B_r^*(t)} = [\mu_I(t) + r_r(t) ]dt + \sigma_I(t) dW_I^\mathbb{P}(t).
+		\end{equation}
+		Dynamika procesu $B_r^*(t)$ dyskontowanego procesem $B_n(t)$ zapiszemy jako
+		\begin{align*}
+		d\bigg(\frac{B_r^*(t)}{B_n(t)}\bigg) &= \frac{d B_r^*(t)}{B_n(t)} - \frac{B^*(t) d B_n(t)}{B_n(t)^2}\\
+		&= \frac{d B_r^*(t)}{B_n(t)} - \frac{B_r^*(t)r_n(t)B_n(t)dt}{B_n(t)^2}\\
+		&= \frac{d B_r^*(t)}{B_n(t)} - \frac{B_r^*(t)}{B_n(t)}r_n(t)\\
+		&= \frac{B_r^*(t)}{B_n(t)} \bigg( [\mu_I(t) + r_r(t) - r_n(t)]dt + \sigma_I(t) dW_I^\mathbb{P}(t)\bigg).
+		\end{align*}
+		Względem miary martyngałowej $\mathbb{Q}$ równoważnej mierze $\mathbb{P}$:
+		\begin{equation*}
+		d\bigg(\frac{B_r^*(t)}{B_n(t)} \bigg) = \frac{B_r^*(t)}{B_n(t)} [\sigma_I(t) dW_I^\mathbb{P}(t)],
+		\end{equation*}
+		gdzie
+		\begin{equation*}
+		W_I^\mathbb{Q}(t) = W_I^\mathbb{P}(t) - \int_{0}^{t} \lambda_I(u) du.
+		\end{equation*}
+		Otrzymujemy wówczas warunek 
+		\begin{equation}
+		\mu_I(t) + r_r(t) - r_n(t) = -\lambda_I(t) \sigma_I(t),
+		\end{equation}
+		i stąd
+		\begin{equation}
+		\mu_I(t) =  r_n(t) - r_r(t) - \lambda_I(t) \sigma_I(t).
+		\end{equation}
 	
-	\subsection*{Struktura terminowa obligacji względem stopy nominalnej}
-	Pierwszy proces bezarbitrażowej struktury terminowej
+	W kolejnej części zostanią udowodnione dwa piersze warunki przy wykorzystaniu struktura terminowa obligacji względem stopy nominalnej i rzeczywistej. Pierwszy proces bezarbitrażowej struktury terminowej
 	\begin{align*}
 	d\bigg(\frac{P_n(t,T)}{B_n(t)}\bigg)  &= \frac{dP_n(t,T)}{B_n(t)} - \frac{dB_n(t)P_n(t,T)}{B_n^2(t)}\\
 	&= \frac{dP_n(t,T)}{B_n(t)} - \frac{B_n(t)r_n(t)dt P_n(t,T)}{B_n^2(t)} \\
@@ -830,9 +811,6 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 	\begin{equation}
 	\frac{dP_n(t,T)}{P_n(t,T)} = r_n(t)dt + \sigma^*_n(t,T)dW^\mathbb{Q}_n(t)
 	\end{equation}
-	
-	\subsection*{Struktura terminowa obligacji względem stopy rzeczywistej}
-	
 	W analogiczny sposób jak wyżej oznaczamy strukturę terminową obligacji względem rzeczywistej stopy procentowej $P_r^*(t) = I(t) P_r(t, T)$. Dynamika procesu ceny obligacji jest równa
 	\begin{equation}
 	d P_r^*(t,T) = P_r(t,T) dI(t) + I(t)dP_r(t,T) + d<P_r(*,T), I(*)>_t.
@@ -913,15 +891,15 @@ Oznacza to, że inwestor na rynku krajowym, który kupuje zagraniczne aktywo o c
 	 \begin{equation}
 	 \frac{dP_n(t,T)}{P_n(t,T)} = [r_n(t) +\sigma^*_n(t,T)\lambda_n(t)]dt + \sigma^*_r(t,T)dW^\mathbb{P}_n(t)
 	 \end{equation}
-	 Względem miary wolnej od ryzyka Q otrzymujemy
+	 Względem miary wolnej od ryzyka $\mathbb{Q}$ otrzymujemy
 	 \begin{equation}
 	 \frac{dP_n(t,T)}{P_n(t,T)} = r_n(t)dt + \sigma^*_n(t,T)dW^\mathbb{Q}_n(t).
 	 \end{equation}
-	 Z kolei dla struktury terminowej obligacji względem stopy realnej dynamika obligacji przy stopie rzeczywistej względem miary rzeczywistej P jest równa
+	 Z kolei dla struktury terminowej obligacji względem stopy realnej dynamika obligacji przy stopie rzeczywistej względem miary rzeczywistej $\mathbb{P}$ jest równa
 	 \begin{equation}
 	 \frac{dP_r(t,T)}{P_r(t,T)} = [r_r(t) +\sigma^*_r(t,T)(\sigma_I(t,T)\rho_{rI}-\lambda_r(t))]dt + \sigma^*_r(t,T)dW^\mathbb{P}_r,
 	 \end{equation}
-	 zaś względem miary wolnej od ryzyka Q otrzymujemy
+	 zaś względem miary wolnej od ryzyka $\mathbb{Q}$ otrzymujemy
 	 \begin{equation}
 	 \frac{dP_r(t,T)}{P_r(t,T)} = [r_r(t) +\sigma^*_r(t,T)\sigma_I(t,T)\rho_{rI}]dt + \sigma^*_r(t,T)dW^\mathbb{Q}_r.
 	 \end{equation}
